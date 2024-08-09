@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: orderpurchases
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+      - name: first_order
+          - not_null
+      - name: last_order
+          - not_null
+  
